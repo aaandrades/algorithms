@@ -1,4 +1,4 @@
-## :rocket: Journal-App
+## :rocket: Algorithms
 
 
 ![Build](https://img.shields.io/badge/-Working-brightgreen)
