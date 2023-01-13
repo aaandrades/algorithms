@@ -10,9 +10,6 @@ const isSubsequence = function (s, t) {
 
   if (s.length > t.length) return false;
 
-  const sMap = new Map();
-  for (let j in s) sMap.set(j, s[j]);
-
   let lastIndex = 0;
   for (let i in t) {
     if (t[i] === s[lastIndex]) lastIndex++;
